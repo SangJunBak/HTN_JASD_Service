@@ -20,6 +20,10 @@
         "source": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_alert_dialog_material.xml"
     },
     {
+        "merged": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/HTN_JASD_Service/react-native-image-picker/unspecified/res/layout/list_item.xml"
+    },
+    {
         "merged": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_dialog_title_material.xml"
     },
