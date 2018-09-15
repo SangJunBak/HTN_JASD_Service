@@ -1,0 +1,3 @@
+rootProject.name = 'HTN_JASD_Service'
+
+include ':app'
