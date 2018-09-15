@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/HTN_JASD_Service/react-native-image-picker/unspecified/res/xml/provider_paths.xml"
+    },
+    {
         "merged": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/xml/preferences.xml"
     }

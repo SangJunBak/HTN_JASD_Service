@@ -6665,9 +6665,30 @@
                     "startLine": 1220,
                     "startColumn": 4,
                     "startOffset": 94001,
-                    "endLine": 1223,
+                    "endLine": 1227,
+                    "endColumn": 12,
+                    "endOffset": 94407
+                },
+                "from": {
+                    "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/HTN_JASD_Service/react-native-image-picker/unspecified/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1228,
+                    "startColumn": 4,
+                    "startOffset": 94412,
+                    "endLine": 1231,
                     "endColumn": 10,
-                    "endOffset": 94198
+                    "endOffset": 94609
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -6683,12 +6704,12 @@
             },
             {
                 "to": {
-                    "startLine": 1224,
+                    "startLine": 1232,
                     "startColumn": 4,
-                    "startOffset": 94203,
-                    "endLine": 1227,
+                    "startOffset": 94614,
+                    "endLine": 1235,
                     "endColumn": 10,
-                    "endOffset": 94404
+                    "endOffset": 94815
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -6704,12 +6725,12 @@
             },
             {
                 "to": {
-                    "startLine": 1228,
+                    "startLine": 1236,
                     "startColumn": 4,
-                    "startOffset": 94409,
-                    "endLine": 1265,
+                    "startOffset": 94820,
+                    "endLine": 1273,
                     "endColumn": 12,
-                    "endOffset": 97266
+                    "endOffset": 97677
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6725,12 +6746,12 @@
             },
             {
                 "to": {
-                    "startLine": 1266,
+                    "startLine": 1274,
                     "startColumn": 4,
-                    "startOffset": 97271,
-                    "endLine": 1304,
+                    "startOffset": 97682,
+                    "endLine": 1312,
                     "endColumn": 12,
-                    "endOffset": 100268
+                    "endOffset": 100679
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6746,11 +6767,11 @@
             },
             {
                 "to": {
-                    "startLine": 1305,
+                    "startLine": 1313,
                     "startColumn": 4,
-                    "startOffset": 100273,
+                    "startOffset": 100684,
                     "endColumn": 61,
-                    "endOffset": 100330
+                    "endOffset": 100741
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6765,12 +6786,12 @@
             },
             {
                 "to": {
-                    "startLine": 1306,
+                    "startLine": 1314,
                     "startColumn": 4,
-                    "startOffset": 100335,
-                    "endLine": 1315,
+                    "startOffset": 100746,
+                    "endLine": 1323,
                     "endColumn": 12,
-                    "endOffset": 100960
+                    "endOffset": 101371
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6786,12 +6807,12 @@
             },
             {
                 "to": {
-                    "startLine": 1316,
+                    "startLine": 1324,
                     "startColumn": 4,
-                    "startOffset": 100965,
-                    "endLine": 1324,
+                    "startOffset": 101376,
+                    "endLine": 1332,
                     "endColumn": 12,
-                    "endOffset": 101574
+                    "endOffset": 101985
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6807,11 +6828,11 @@
             },
             {
                 "to": {
-                    "startLine": 1325,
+                    "startLine": 1333,
                     "startColumn": 4,
-                    "startOffset": 101579,
+                    "startOffset": 101990,
                     "endColumn": 85,
-                    "endOffset": 101660
+                    "endOffset": 102071
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6826,12 +6847,12 @@
             },
             {
                 "to": {
-                    "startLine": 1326,
+                    "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 101665,
-                    "endLine": 1327,
+                    "startOffset": 102076,
+                    "endLine": 1335,
                     "endColumn": 12,
-                    "endOffset": 101773
+                    "endOffset": 102184
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6847,12 +6868,12 @@
             },
             {
                 "to": {
-                    "startLine": 1328,
+                    "startLine": 1336,
                     "startColumn": 4,
-                    "startOffset": 101778,
-                    "endLine": 1331,
+                    "startOffset": 102189,
+                    "endLine": 1339,
                     "endColumn": 12,
-                    "endOffset": 102002
+                    "endOffset": 102413
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6868,12 +6889,12 @@
             },
             {
                 "to": {
-                    "startLine": 1332,
+                    "startLine": 1340,
                     "startColumn": 4,
-                    "startOffset": 102007,
-                    "endLine": 1335,
+                    "startOffset": 102418,
+                    "endLine": 1343,
                     "endColumn": 12,
-                    "endOffset": 102340
+                    "endOffset": 102751
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6889,12 +6910,12 @@
             },
             {
                 "to": {
-                    "startLine": 1336,
+                    "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 102345,
-                    "endLine": 1338,
+                    "startOffset": 102756,
+                    "endLine": 1346,
                     "endColumn": 12,
-                    "endOffset": 102500
+                    "endOffset": 102911
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6910,12 +6931,12 @@
             },
             {
                 "to": {
-                    "startLine": 1339,
+                    "startLine": 1347,
                     "startColumn": 4,
-                    "startOffset": 102505,
-                    "endLine": 1341,
+                    "startOffset": 102916,
+                    "endLine": 1349,
                     "endColumn": 12,
-                    "endOffset": 102652
+                    "endOffset": 103063
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6931,12 +6952,12 @@
             },
             {
                 "to": {
-                    "startLine": 1342,
+                    "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 102657,
-                    "endLine": 1344,
+                    "startOffset": 103068,
+                    "endLine": 1352,
                     "endColumn": 12,
-                    "endOffset": 102823
+                    "endOffset": 103234
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6952,12 +6973,12 @@
             },
             {
                 "to": {
-                    "startLine": 1345,
+                    "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 102828,
-                    "endLine": 1347,
+                    "startOffset": 103239,
+                    "endLine": 1355,
                     "endColumn": 12,
-                    "endOffset": 102990
+                    "endOffset": 103401
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6973,12 +6994,12 @@
             },
             {
                 "to": {
-                    "startLine": 1348,
+                    "startLine": 1356,
                     "startColumn": 4,
-                    "startOffset": 102995,
-                    "endLine": 1351,
+                    "startOffset": 103406,
+                    "endLine": 1359,
                     "endColumn": 12,
-                    "endOffset": 103233
+                    "endOffset": 103644
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6994,12 +7015,12 @@
             },
             {
                 "to": {
-                    "startLine": 1352,
+                    "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 103238,
-                    "endLine": 1354,
+                    "startOffset": 103649,
+                    "endLine": 1362,
                     "endColumn": 12,
-                    "endOffset": 103403
+                    "endOffset": 103814
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7015,12 +7036,12 @@
             },
             {
                 "to": {
-                    "startLine": 1355,
+                    "startLine": 1363,
                     "startColumn": 4,
-                    "startOffset": 103408,
-                    "endLine": 1357,
+                    "startOffset": 103819,
+                    "endLine": 1365,
                     "endColumn": 12,
-                    "endOffset": 103576
+                    "endOffset": 103987
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7036,12 +7057,12 @@
             },
             {
                 "to": {
-                    "startLine": 1358,
+                    "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 103581,
-                    "endLine": 1360,
+                    "startOffset": 103992,
+                    "endLine": 1368,
                     "endColumn": 12,
-                    "endOffset": 103747
+                    "endOffset": 104158
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7057,12 +7078,12 @@
             },
             {
                 "to": {
-                    "startLine": 1361,
+                    "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 103752,
-                    "endLine": 1364,
+                    "startOffset": 104163,
+                    "endLine": 1372,
                     "endColumn": 12,
-                    "endOffset": 104021
+                    "endOffset": 104432
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7078,12 +7099,12 @@
             },
             {
                 "to": {
-                    "startLine": 1365,
+                    "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 104026,
-                    "endLine": 1367,
+                    "startOffset": 104437,
+                    "endLine": 1375,
                     "endColumn": 12,
-                    "endOffset": 104220
+                    "endOffset": 104631
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7099,12 +7120,12 @@
             },
             {
                 "to": {
-                    "startLine": 1368,
+                    "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 104225,
-                    "endLine": 1370,
+                    "startOffset": 104636,
+                    "endLine": 1378,
                     "endColumn": 12,
-                    "endOffset": 104421
+                    "endOffset": 104832
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -7120,12 +7141,12 @@
             },
             {
                 "to": {
-                    "startLine": 1371,
+                    "startLine": 1379,
                     "startColumn": 4,
-                    "startOffset": 104426,
-                    "endLine": 1373,
+                    "startOffset": 104837,
+                    "endLine": 1381,
                     "endColumn": 12,
-                    "endOffset": 104610
+                    "endOffset": 105021
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -7141,12 +7162,12 @@
             },
             {
                 "to": {
-                    "startLine": 1374,
+                    "startLine": 1382,
                     "startColumn": 4,
-                    "startOffset": 104615,
-                    "endLine": 1376,
+                    "startOffset": 105026,
+                    "endLine": 1384,
                     "endColumn": 12,
-                    "endOffset": 104809
+                    "endOffset": 105220
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -7162,12 +7183,12 @@
             },
             {
                 "to": {
-                    "startLine": 1377,
+                    "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 104814,
-                    "endLine": 1379,
+                    "startOffset": 105225,
+                    "endLine": 1387,
                     "endColumn": 12,
-                    "endOffset": 104996
+                    "endOffset": 105407
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -7183,11 +7204,11 @@
             },
             {
                 "to": {
-                    "startLine": 1380,
+                    "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 105001,
+                    "startOffset": 105412,
                     "endColumn": 83,
-                    "endOffset": 105080
+                    "endOffset": 105491
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7202,11 +7223,11 @@
             },
             {
                 "to": {
-                    "startLine": 1381,
+                    "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 105085,
+                    "startOffset": 105496,
                     "endColumn": 95,
-                    "endOffset": 105176
+                    "endOffset": 105587
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7221,11 +7242,11 @@
             },
             {
                 "to": {
-                    "startLine": 1382,
+                    "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 105181,
+                    "startOffset": 105592,
                     "endColumn": 95,
-                    "endOffset": 105272
+                    "endOffset": 105683
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7240,11 +7261,11 @@
             },
             {
                 "to": {
-                    "startLine": 1383,
+                    "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 105277,
+                    "startOffset": 105688,
                     "endColumn": 97,
-                    "endOffset": 105370
+                    "endOffset": 105781
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7259,11 +7280,11 @@
             },
             {
                 "to": {
-                    "startLine": 1384,
+                    "startLine": 1392,
                     "startColumn": 4,
-                    "startOffset": 105375,
+                    "startOffset": 105786,
                     "endColumn": 99,
-                    "endOffset": 105470
+                    "endOffset": 105881
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7278,11 +7299,11 @@
             },
             {
                 "to": {
-                    "startLine": 1385,
+                    "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 105475,
+                    "startOffset": 105886,
                     "endColumn": 101,
-                    "endOffset": 105572
+                    "endOffset": 105983
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7297,11 +7318,11 @@
             },
             {
                 "to": {
-                    "startLine": 1386,
+                    "startLine": 1394,
                     "startColumn": 4,
-                    "startOffset": 105577,
+                    "startOffset": 105988,
                     "endColumn": 101,
-                    "endOffset": 105674
+                    "endOffset": 106085
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7316,11 +7337,11 @@
             },
             {
                 "to": {
-                    "startLine": 1387,
+                    "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 105679,
+                    "startOffset": 106090,
                     "endColumn": 101,
-                    "endOffset": 105776
+                    "endOffset": 106187
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7335,11 +7356,11 @@
             },
             {
                 "to": {
-                    "startLine": 1388,
+                    "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 105781,
+                    "startOffset": 106192,
                     "endColumn": 101,
-                    "endOffset": 105878
+                    "endOffset": 106289
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7354,11 +7375,11 @@
             },
             {
                 "to": {
-                    "startLine": 1389,
+                    "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 105883,
+                    "startOffset": 106294,
                     "endColumn": 101,
-                    "endOffset": 105980
+                    "endOffset": 106391
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7373,11 +7394,11 @@
             },
             {
                 "to": {
-                    "startLine": 1390,
+                    "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 105985,
+                    "startOffset": 106396,
                     "endColumn": 99,
-                    "endOffset": 106080
+                    "endOffset": 106491
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7392,11 +7413,11 @@
             },
             {
                 "to": {
-                    "startLine": 1391,
+                    "startLine": 1399,
                     "startColumn": 4,
-                    "startOffset": 106085,
+                    "startOffset": 106496,
                     "endColumn": 95,
-                    "endOffset": 106176
+                    "endOffset": 106587
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7411,11 +7432,11 @@
             },
             {
                 "to": {
-                    "startLine": 1392,
+                    "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 106181,
+                    "startOffset": 106592,
                     "endColumn": 111,
-                    "endOffset": 106288
+                    "endOffset": 106699
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7430,11 +7451,11 @@
             },
             {
                 "to": {
-                    "startLine": 1393,
+                    "startLine": 1401,
                     "startColumn": 4,
-                    "startOffset": 106293,
+                    "startOffset": 106704,
                     "endColumn": 128,
-                    "endOffset": 106417
+                    "endOffset": 106828
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7449,11 +7470,11 @@
             },
             {
                 "to": {
-                    "startLine": 1394,
+                    "startLine": 1402,
                     "startColumn": 4,
-                    "startOffset": 106422,
+                    "startOffset": 106833,
                     "endColumn": 122,
-                    "endOffset": 106540
+                    "endOffset": 106951
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7468,12 +7489,12 @@
             },
             {
                 "to": {
-                    "startLine": 1395,
+                    "startLine": 1403,
                     "startColumn": 4,
-                    "startOffset": 106545,
-                    "endLine": 1396,
+                    "startOffset": 106956,
+                    "endLine": 1404,
                     "endColumn": 12,
-                    "endOffset": 106694
+                    "endOffset": 107105
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7489,12 +7510,12 @@
             },
             {
                 "to": {
-                    "startLine": 1397,
+                    "startLine": 1405,
                     "startColumn": 4,
-                    "startOffset": 106699,
-                    "endLine": 1398,
+                    "startOffset": 107110,
+                    "endLine": 1406,
                     "endColumn": 12,
-                    "endOffset": 106848
+                    "endOffset": 107259
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7510,11 +7531,11 @@
             },
             {
                 "to": {
-                    "startLine": 1399,
+                    "startLine": 1407,
                     "startColumn": 4,
-                    "startOffset": 106853,
+                    "startOffset": 107264,
                     "endColumn": 97,
-                    "endOffset": 106946
+                    "endOffset": 107357
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7529,11 +7550,11 @@
             },
             {
                 "to": {
-                    "startLine": 1400,
+                    "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 106951,
+                    "startOffset": 107362,
                     "endColumn": 113,
-                    "endOffset": 107060
+                    "endOffset": 107471
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7548,11 +7569,11 @@
             },
             {
                 "to": {
-                    "startLine": 1401,
+                    "startLine": 1409,
                     "startColumn": 4,
-                    "startOffset": 107065,
+                    "startOffset": 107476,
                     "endColumn": 93,
-                    "endOffset": 107154
+                    "endOffset": 107565
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7567,12 +7588,12 @@
             },
             {
                 "to": {
-                    "startLine": 1402,
+                    "startLine": 1410,
                     "startColumn": 4,
-                    "startOffset": 107159,
-                    "endLine": 1403,
+                    "startOffset": 107570,
+                    "endLine": 1411,
                     "endColumn": 12,
-                    "endOffset": 107294
+                    "endOffset": 107705
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7588,12 +7609,12 @@
             },
             {
                 "to": {
-                    "startLine": 1404,
+                    "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 107299,
-                    "endLine": 1405,
+                    "startOffset": 107710,
+                    "endLine": 1413,
                     "endColumn": 12,
-                    "endOffset": 107428
+                    "endOffset": 107839
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7609,11 +7630,11 @@
             },
             {
                 "to": {
-                    "startLine": 1406,
+                    "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 107433,
+                    "startOffset": 107844,
                     "endColumn": 95,
-                    "endOffset": 107524
+                    "endOffset": 107935
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7628,11 +7649,11 @@
             },
             {
                 "to": {
-                    "startLine": 1407,
+                    "startLine": 1415,
                     "startColumn": 4,
-                    "startOffset": 107529,
+                    "startOffset": 107940,
                     "endColumn": 111,
-                    "endOffset": 107636
+                    "endOffset": 108047
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7647,11 +7668,11 @@
             },
             {
                 "to": {
-                    "startLine": 1408,
+                    "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 107641,
+                    "startOffset": 108052,
                     "endColumn": 99,
-                    "endOffset": 107736
+                    "endOffset": 108147
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7666,11 +7687,11 @@
             },
             {
                 "to": {
-                    "startLine": 1409,
+                    "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 107741,
+                    "startOffset": 108152,
                     "endColumn": 115,
-                    "endOffset": 107852
+                    "endOffset": 108263
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7685,11 +7706,11 @@
             },
             {
                 "to": {
-                    "startLine": 1410,
+                    "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 107857,
+                    "startOffset": 108268,
                     "endColumn": 95,
-                    "endOffset": 107948
+                    "endOffset": 108359
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7704,11 +7725,11 @@
             },
             {
                 "to": {
-                    "startLine": 1411,
+                    "startLine": 1419,
                     "startColumn": 4,
-                    "startOffset": 107953,
+                    "startOffset": 108364,
                     "endColumn": 111,
-                    "endOffset": 108060
+                    "endOffset": 108471
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7723,12 +7744,12 @@
             },
             {
                 "to": {
-                    "startLine": 1412,
+                    "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 108065,
-                    "endLine": 1413,
+                    "startOffset": 108476,
+                    "endLine": 1421,
                     "endColumn": 12,
-                    "endOffset": 108200
+                    "endOffset": 108611
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7744,11 +7765,11 @@
             },
             {
                 "to": {
-                    "startLine": 1414,
+                    "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 108205,
+                    "startOffset": 108616,
                     "endColumn": 135,
-                    "endOffset": 108336
+                    "endOffset": 108747
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7763,12 +7784,12 @@
             },
             {
                 "to": {
-                    "startLine": 1415,
+                    "startLine": 1423,
                     "startColumn": 4,
-                    "startOffset": 108341,
-                    "endLine": 1416,
+                    "startOffset": 108752,
+                    "endLine": 1424,
                     "endColumn": 12,
-                    "endOffset": 108500
+                    "endOffset": 108911
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7784,11 +7805,11 @@
             },
             {
                 "to": {
-                    "startLine": 1417,
+                    "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 108505,
+                    "startOffset": 108916,
                     "endColumn": 129,
-                    "endOffset": 108630
+                    "endOffset": 109041
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7803,12 +7824,12 @@
             },
             {
                 "to": {
-                    "startLine": 1418,
+                    "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 108635,
-                    "endLine": 1419,
+                    "startOffset": 109046,
+                    "endLine": 1427,
                     "endColumn": 12,
-                    "endOffset": 108788
+                    "endOffset": 109199
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7824,12 +7845,12 @@
             },
             {
                 "to": {
-                    "startLine": 1420,
+                    "startLine": 1428,
                     "startColumn": 4,
-                    "startOffset": 108793,
-                    "endLine": 1421,
+                    "startOffset": 109204,
+                    "endLine": 1429,
                     "endColumn": 12,
-                    "endOffset": 108938
+                    "endOffset": 109349
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7845,11 +7866,11 @@
             },
             {
                 "to": {
-                    "startLine": 1422,
+                    "startLine": 1430,
                     "startColumn": 4,
-                    "startOffset": 108943,
+                    "startOffset": 109354,
                     "endColumn": 140,
-                    "endOffset": 109079
+                    "endOffset": 109490
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7864,12 +7885,12 @@
             },
             {
                 "to": {
-                    "startLine": 1423,
+                    "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 109084,
-                    "endLine": 1424,
+                    "startOffset": 109495,
+                    "endLine": 1432,
                     "endColumn": 12,
-                    "endOffset": 109223
+                    "endOffset": 109634
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7885,11 +7906,11 @@
             },
             {
                 "to": {
-                    "startLine": 1425,
+                    "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 109228,
+                    "startOffset": 109639,
                     "endColumn": 134,
-                    "endOffset": 109358
+                    "endOffset": 109769
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7904,11 +7925,11 @@
             },
             {
                 "to": {
-                    "startLine": 1426,
+                    "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 109363,
+                    "startOffset": 109774,
                     "endColumn": 111,
-                    "endOffset": 109470
+                    "endOffset": 109881
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7923,11 +7944,11 @@
             },
             {
                 "to": {
-                    "startLine": 1427,
+                    "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 109475,
+                    "startOffset": 109886,
                     "endColumn": 127,
-                    "endOffset": 109598
+                    "endOffset": 110009
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7942,12 +7963,12 @@
             },
             {
                 "to": {
-                    "startLine": 1428,
+                    "startLine": 1436,
                     "startColumn": 4,
-                    "startOffset": 109603,
-                    "endLine": 1429,
+                    "startOffset": 110014,
+                    "endLine": 1437,
                     "endColumn": 12,
-                    "endOffset": 109734
+                    "endOffset": 110145
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7963,12 +7984,12 @@
             },
             {
                 "to": {
-                    "startLine": 1430,
+                    "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 109739,
-                    "endLine": 1431,
+                    "startOffset": 110150,
+                    "endLine": 1439,
                     "endColumn": 12,
-                    "endOffset": 109876
+                    "endOffset": 110287
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7984,12 +8005,12 @@
             },
             {
                 "to": {
-                    "startLine": 1432,
+                    "startLine": 1440,
                     "startColumn": 4,
-                    "startOffset": 109881,
-                    "endLine": 1433,
+                    "startOffset": 110292,
+                    "endLine": 1441,
                     "endColumn": 12,
-                    "endOffset": 110018
+                    "endOffset": 110429
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8005,11 +8026,11 @@
             },
             {
                 "to": {
-                    "startLine": 1434,
+                    "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 110023,
+                    "startOffset": 110434,
                     "endColumn": 111,
-                    "endOffset": 110130
+                    "endOffset": 110541
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8024,11 +8045,11 @@
             },
             {
                 "to": {
-                    "startLine": 1435,
+                    "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 110135,
+                    "startOffset": 110546,
                     "endColumn": 139,
-                    "endOffset": 110270
+                    "endOffset": 110681
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8043,11 +8064,11 @@
             },
             {
                 "to": {
-                    "startLine": 1436,
+                    "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 110275,
+                    "startOffset": 110686,
                     "endColumn": 67,
-                    "endOffset": 110338
+                    "endOffset": 110749
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8062,11 +8083,11 @@
             },
             {
                 "to": {
-                    "startLine": 1437,
+                    "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 110343,
+                    "startOffset": 110754,
                     "endColumn": 72,
-                    "endOffset": 110411
+                    "endOffset": 110822
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8081,11 +8102,11 @@
             },
             {
                 "to": {
-                    "startLine": 1438,
+                    "startLine": 1446,
                     "startColumn": 4,
-                    "startOffset": 110416,
+                    "startOffset": 110827,
                     "endColumn": 73,
-                    "endOffset": 110485
+                    "endOffset": 110896
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8100,11 +8121,11 @@
             },
             {
                 "to": {
-                    "startLine": 1439,
+                    "startLine": 1447,
                     "startColumn": 4,
-                    "startOffset": 110490,
+                    "startOffset": 110901,
                     "endColumn": 72,
-                    "endOffset": 110558
+                    "endOffset": 110969
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8119,11 +8140,11 @@
             },
             {
                 "to": {
-                    "startLine": 1440,
+                    "startLine": 1448,
                     "startColumn": 4,
-                    "startOffset": 110563,
+                    "startOffset": 110974,
                     "endColumn": 73,
-                    "endOffset": 110632
+                    "endOffset": 111043
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8138,12 +8159,12 @@
             },
             {
                 "to": {
-                    "startLine": 1441,
+                    "startLine": 1449,
                     "startColumn": 4,
-                    "startOffset": 110637,
-                    "endLine": 1442,
+                    "startOffset": 111048,
+                    "endLine": 1450,
                     "endColumn": 12,
-                    "endOffset": 110778
+                    "endOffset": 111189
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8159,12 +8180,12 @@
             },
             {
                 "to": {
-                    "startLine": 1443,
+                    "startLine": 1451,
                     "startColumn": 4,
-                    "startOffset": 110783,
-                    "endLine": 1444,
+                    "startOffset": 111194,
+                    "endLine": 1452,
                     "endColumn": 12,
-                    "endOffset": 110922
+                    "endOffset": 111333
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8180,12 +8201,12 @@
             },
             {
                 "to": {
-                    "startLine": 1445,
+                    "startLine": 1453,
                     "startColumn": 4,
-                    "startOffset": 110927,
-                    "endLine": 1446,
+                    "startOffset": 111338,
+                    "endLine": 1454,
                     "endColumn": 12,
-                    "endOffset": 111060
+                    "endOffset": 111471
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8201,11 +8222,11 @@
             },
             {
                 "to": {
-                    "startLine": 1447,
+                    "startLine": 1455,
                     "startColumn": 4,
-                    "startOffset": 111065,
+                    "startOffset": 111476,
                     "endColumn": 25,
-                    "endOffset": 111086
+                    "endOffset": 111497
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -8220,11 +8241,11 @@
             },
             {
                 "to": {
-                    "startLine": 1448,
+                    "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 111091,
+                    "startOffset": 111502,
                     "endColumn": 65,
-                    "endOffset": 111152
+                    "endOffset": 111563
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8239,11 +8260,11 @@
             },
             {
                 "to": {
-                    "startLine": 1449,
+                    "startLine": 1457,
                     "startColumn": 4,
-                    "startOffset": 111157,
+                    "startOffset": 111568,
                     "endColumn": 89,
-                    "endOffset": 111242
+                    "endOffset": 111653
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8258,11 +8279,11 @@
             },
             {
                 "to": {
-                    "startLine": 1450,
+                    "startLine": 1458,
                     "startColumn": 4,
-                    "startOffset": 111247,
+                    "startOffset": 111658,
                     "endColumn": 79,
-                    "endOffset": 111322
+                    "endOffset": 111733
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8277,11 +8298,11 @@
             },
             {
                 "to": {
-                    "startLine": 1451,
+                    "startLine": 1459,
                     "startColumn": 4,
-                    "startOffset": 111327,
+                    "startOffset": 111738,
                     "endColumn": 91,
-                    "endOffset": 111414
+                    "endOffset": 111825
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8296,11 +8317,11 @@
             },
             {
                 "to": {
-                    "startLine": 1452,
+                    "startLine": 1460,
                     "startColumn": 4,
-                    "startOffset": 111419,
+                    "startOffset": 111830,
                     "endColumn": 97,
-                    "endOffset": 111512
+                    "endOffset": 111923
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8315,12 +8336,12 @@
             },
             {
                 "to": {
-                    "startLine": 1453,
+                    "startLine": 1461,
                     "startColumn": 4,
-                    "startOffset": 111517,
-                    "endLine": 1454,
+                    "startOffset": 111928,
+                    "endLine": 1462,
                     "endColumn": 12,
-                    "endOffset": 111622
+                    "endOffset": 112033
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8336,11 +8357,11 @@
             },
             {
                 "to": {
-                    "startLine": 1455,
+                    "startLine": 1463,
                     "startColumn": 4,
-                    "startOffset": 111627,
+                    "startOffset": 112038,
                     "endColumn": 77,
-                    "endOffset": 111700
+                    "endOffset": 112111
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8355,11 +8376,11 @@
             },
             {
                 "to": {
-                    "startLine": 1456,
+                    "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 111705,
+                    "startOffset": 112116,
                     "endColumn": 105,
-                    "endOffset": 111806
+                    "endOffset": 112217
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8374,11 +8395,11 @@
             },
             {
                 "to": {
-                    "startLine": 1457,
+                    "startLine": 1465,
                     "startColumn": 4,
-                    "startOffset": 111811,
+                    "startOffset": 112222,
                     "endColumn": 91,
-                    "endOffset": 111898
+                    "endOffset": 112309
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8393,11 +8414,11 @@
             },
             {
                 "to": {
-                    "startLine": 1458,
+                    "startLine": 1466,
                     "startColumn": 4,
-                    "startOffset": 111903,
+                    "startOffset": 112314,
                     "endColumn": 103,
-                    "endOffset": 112002
+                    "endOffset": 112413
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8412,11 +8433,11 @@
             },
             {
                 "to": {
-                    "startLine": 1459,
+                    "startLine": 1467,
                     "startColumn": 4,
-                    "startOffset": 112007,
+                    "startOffset": 112418,
                     "endColumn": 109,
-                    "endOffset": 112112
+                    "endOffset": 112523
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8431,12 +8452,12 @@
             },
             {
                 "to": {
-                    "startLine": 1460,
+                    "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 112117,
-                    "endLine": 1461,
+                    "startOffset": 112528,
+                    "endLine": 1469,
                     "endColumn": 12,
-                    "endOffset": 112234
+                    "endOffset": 112645
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8452,12 +8473,12 @@
             },
             {
                 "to": {
-                    "startLine": 1462,
+                    "startLine": 1470,
                     "startColumn": 4,
-                    "startOffset": 112239,
-                    "endLine": 1465,
+                    "startOffset": 112650,
+                    "endLine": 1473,
                     "endColumn": 12,
-                    "endOffset": 112397
+                    "endOffset": 112808
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8473,12 +8494,12 @@
             },
             {
                 "to": {
-                    "startLine": 1466,
+                    "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 112402,
-                    "endLine": 1469,
+                    "startOffset": 112813,
+                    "endLine": 1477,
                     "endColumn": 12,
-                    "endOffset": 112554
+                    "endOffset": 112965
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8494,11 +8515,11 @@
             },
             {
                 "to": {
-                    "startLine": 1470,
+                    "startLine": 1478,
                     "startColumn": 4,
-                    "startOffset": 112559,
+                    "startOffset": 112970,
                     "endColumn": 34,
-                    "endOffset": 112589
+                    "endOffset": 113000
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -8513,12 +8534,12 @@
             },
             {
                 "to": {
-                    "startLine": 1471,
+                    "startLine": 1479,
                     "startColumn": 4,
-                    "startOffset": 112594,
-                    "endLine": 1477,
+                    "startOffset": 113005,
+                    "endLine": 1485,
                     "endColumn": 10,
-                    "endOffset": 113007
+                    "endOffset": 113418
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -8534,12 +8555,12 @@
             },
             {
                 "to": {
-                    "startLine": 1478,
+                    "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 113012,
-                    "endLine": 1484,
+                    "startOffset": 113423,
+                    "endLine": 1492,
                     "endColumn": 10,
-                    "endOffset": 113385
+                    "endOffset": 113796
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -8555,12 +8576,12 @@
             },
             {
                 "to": {
-                    "startLine": 1485,
+                    "startLine": 1493,
                     "startColumn": 4,
-                    "startOffset": 113390,
-                    "endLine": 1487,
+                    "startOffset": 113801,
+                    "endLine": 1495,
                     "endColumn": 10,
-                    "endOffset": 113562
+                    "endOffset": 113973
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -8576,12 +8597,12 @@
             },
             {
                 "to": {
-                    "startLine": 1488,
+                    "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 113567,
-                    "endLine": 1490,
+                    "startOffset": 113978,
+                    "endLine": 1498,
                     "endColumn": 10,
-                    "endOffset": 113741
+                    "endOffset": 114152
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -8597,12 +8618,12 @@
             },
             {
                 "to": {
-                    "startLine": 1491,
+                    "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 113746,
-                    "endLine": 1493,
+                    "startOffset": 114157,
+                    "endLine": 1501,
                     "endColumn": 12,
-                    "endOffset": 113924
+                    "endOffset": 114335
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -8618,12 +8639,12 @@
             },
             {
                 "to": {
-                    "startLine": 1494,
+                    "startLine": 1502,
                     "startColumn": 4,
-                    "startOffset": 113929,
-                    "endLine": 1499,
+                    "startOffset": 114340,
+                    "endLine": 1507,
                     "endColumn": 12,
-                    "endOffset": 114289
+                    "endOffset": 114700
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
@@ -8639,11 +8660,11 @@
             },
             {
                 "to": {
-                    "startLine": 1500,
+                    "startLine": 1508,
                     "startColumn": 4,
-                    "startOffset": 114294,
+                    "startOffset": 114705,
                     "endColumn": 79,
-                    "endOffset": 114369
+                    "endOffset": 114780
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8658,11 +8679,11 @@
             },
             {
                 "to": {
-                    "startLine": 1501,
+                    "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 114374,
+                    "startOffset": 114785,
                     "endColumn": 99,
-                    "endOffset": 114469
+                    "endOffset": 114880
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8677,11 +8698,11 @@
             },
             {
                 "to": {
-                    "startLine": 1502,
+                    "startLine": 1510,
                     "startColumn": 4,
-                    "startOffset": 114474,
+                    "startOffset": 114885,
                     "endColumn": 89,
-                    "endOffset": 114559
+                    "endOffset": 114970
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8696,11 +8717,11 @@
             },
             {
                 "to": {
-                    "startLine": 1503,
+                    "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 114564,
+                    "startOffset": 114975,
                     "endColumn": 109,
-                    "endOffset": 114669
+                    "endOffset": 115080
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8715,11 +8736,11 @@
             },
             {
                 "to": {
-                    "startLine": 1504,
+                    "startLine": 1512,
                     "startColumn": 4,
-                    "startOffset": 114674,
+                    "startOffset": 115085,
                     "endColumn": 91,
-                    "endOffset": 114761
+                    "endOffset": 115172
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8734,12 +8755,12 @@
             },
             {
                 "to": {
-                    "startLine": 1505,
+                    "startLine": 1513,
                     "startColumn": 4,
-                    "startOffset": 114766,
-                    "endLine": 1506,
+                    "startOffset": 115177,
+                    "endLine": 1514,
                     "endColumn": 12,
-                    "endOffset": 114861
+                    "endOffset": 115272
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8755,12 +8776,12 @@
             },
             {
                 "to": {
-                    "startLine": 1507,
+                    "startLine": 1515,
                     "startColumn": 4,
-                    "startOffset": 114866,
-                    "endLine": 1508,
+                    "startOffset": 115277,
+                    "endLine": 1516,
                     "endColumn": 12,
-                    "endOffset": 114973
+                    "endOffset": 115384
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8776,12 +8797,12 @@
             },
             {
                 "to": {
-                    "startLine": 1509,
+                    "startLine": 1517,
                     "startColumn": 4,
-                    "startOffset": 114978,
-                    "endLine": 1510,
+                    "startOffset": 115389,
+                    "endLine": 1518,
                     "endColumn": 12,
-                    "endOffset": 115087
+                    "endOffset": 115498
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8797,12 +8818,12 @@
             },
             {
                 "to": {
-                    "startLine": 1511,
+                    "startLine": 1519,
                     "startColumn": 4,
-                    "startOffset": 115092,
-                    "endLine": 1512,
+                    "startOffset": 115503,
+                    "endLine": 1520,
                     "endColumn": 12,
-                    "endOffset": 115203
+                    "endOffset": 115614
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8818,12 +8839,12 @@
             },
             {
                 "to": {
-                    "startLine": 1513,
+                    "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 115208,
-                    "endLine": 1514,
+                    "startOffset": 115619,
+                    "endLine": 1522,
                     "endColumn": 12,
-                    "endOffset": 115319
+                    "endOffset": 115730
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8839,11 +8860,11 @@
             },
             {
                 "to": {
-                    "startLine": 1515,
+                    "startLine": 1523,
                     "startColumn": 4,
-                    "startOffset": 115324,
+                    "startOffset": 115735,
                     "endColumn": 93,
-                    "endOffset": 115413
+                    "endOffset": 115824
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8858,11 +8879,11 @@
             },
             {
                 "to": {
-                    "startLine": 1516,
+                    "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 115418,
+                    "startOffset": 115829,
                     "endColumn": 113,
-                    "endOffset": 115527
+                    "endOffset": 115938
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8877,11 +8898,11 @@
             },
             {
                 "to": {
-                    "startLine": 1517,
+                    "startLine": 1525,
                     "startColumn": 4,
-                    "startOffset": 115532,
+                    "startOffset": 115943,
                     "endColumn": 117,
-                    "endOffset": 115645
+                    "endOffset": 116056
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8896,12 +8917,12 @@
             },
             {
                 "to": {
-                    "startLine": 1518,
+                    "startLine": 1526,
                     "startColumn": 4,
-                    "startOffset": 115650,
-                    "endLine": 1519,
+                    "startOffset": 116061,
+                    "endLine": 1527,
                     "endColumn": 12,
-                    "endOffset": 115747
+                    "endOffset": 116158
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8917,12 +8938,12 @@
             },
             {
                 "to": {
-                    "startLine": 1520,
+                    "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 115752,
-                    "endLine": 1521,
+                    "startOffset": 116163,
+                    "endLine": 1529,
                     "endColumn": 12,
-                    "endOffset": 115867
+                    "endOffset": 116278
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8938,12 +8959,12 @@
             },
             {
                 "to": {
-                    "startLine": 1522,
+                    "startLine": 1530,
                     "startColumn": 4,
-                    "startOffset": 115872,
-                    "endLine": 1523,
+                    "startOffset": 116283,
+                    "endLine": 1531,
                     "endColumn": 12,
-                    "endOffset": 115989
+                    "endOffset": 116400
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8959,11 +8980,11 @@
             },
             {
                 "to": {
-                    "startLine": 1524,
+                    "startLine": 1532,
                     "startColumn": 4,
-                    "startOffset": 115994,
+                    "startOffset": 116405,
                     "endColumn": 81,
-                    "endOffset": 116071
+                    "endOffset": 116482
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8978,11 +8999,11 @@
             },
             {
                 "to": {
-                    "startLine": 1525,
+                    "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 116076,
+                    "startOffset": 116487,
                     "endColumn": 103,
-                    "endOffset": 116175
+                    "endOffset": 116586
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8997,11 +9018,11 @@
             },
             {
                 "to": {
-                    "startLine": 1526,
+                    "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 116180,
+                    "startOffset": 116591,
                     "endColumn": 119,
-                    "endOffset": 116295
+                    "endOffset": 116706
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9016,11 +9037,11 @@
             },
             {
                 "to": {
-                    "startLine": 1527,
+                    "startLine": 1535,
                     "startColumn": 4,
-                    "startOffset": 116300,
+                    "startOffset": 116711,
                     "endColumn": 125,
-                    "endOffset": 116421
+                    "endOffset": 116832
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9035,11 +9056,11 @@
             },
             {
                 "to": {
-                    "startLine": 1528,
+                    "startLine": 1536,
                     "startColumn": 4,
-                    "startOffset": 116426,
+                    "startOffset": 116837,
                     "endColumn": 97,
-                    "endOffset": 116519
+                    "endOffset": 116930
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9054,11 +9075,11 @@
             },
             {
                 "to": {
-                    "startLine": 1529,
+                    "startLine": 1537,
                     "startColumn": 4,
-                    "startOffset": 116524,
+                    "startOffset": 116935,
                     "endColumn": 93,
-                    "endOffset": 116613
+                    "endOffset": 117024
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9073,11 +9094,11 @@
             },
             {
                 "to": {
-                    "startLine": 1530,
+                    "startLine": 1538,
                     "startColumn": 4,
-                    "startOffset": 116618,
+                    "startOffset": 117029,
                     "endColumn": 87,
-                    "endOffset": 116701
+                    "endOffset": 117112
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9092,11 +9113,11 @@
             },
             {
                 "to": {
-                    "startLine": 1531,
+                    "startLine": 1539,
                     "startColumn": 4,
-                    "startOffset": 116706,
+                    "startOffset": 117117,
                     "endColumn": 111,
-                    "endOffset": 116813
+                    "endOffset": 117224
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9111,11 +9132,11 @@
             },
             {
                 "to": {
-                    "startLine": 1532,
+                    "startLine": 1540,
                     "startColumn": 4,
-                    "startOffset": 116818,
+                    "startOffset": 117229,
                     "endColumn": 115,
-                    "endOffset": 116929
+                    "endOffset": 117340
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9130,11 +9151,11 @@
             },
             {
                 "to": {
-                    "startLine": 1533,
+                    "startLine": 1541,
                     "startColumn": 4,
-                    "startOffset": 116934,
+                    "startOffset": 117345,
                     "endColumn": 121,
-                    "endOffset": 117051
+                    "endOffset": 117462
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9149,11 +9170,11 @@
             },
             {
                 "to": {
-                    "startLine": 1534,
+                    "startLine": 1542,
                     "startColumn": 4,
-                    "startOffset": 117056,
+                    "startOffset": 117467,
                     "endColumn": 111,
-                    "endOffset": 117163
+                    "endOffset": 117574
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9168,12 +9189,12 @@
             },
             {
                 "to": {
-                    "startLine": 1535,
+                    "startLine": 1543,
                     "startColumn": 4,
-                    "startOffset": 117168,
-                    "endLine": 1537,
+                    "startOffset": 117579,
+                    "endLine": 1545,
                     "endColumn": 12,
-                    "endOffset": 117338
+                    "endOffset": 117749
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9189,11 +9210,11 @@
             },
             {
                 "to": {
-                    "startLine": 1538,
+                    "startLine": 1546,
                     "startColumn": 4,
-                    "startOffset": 117343,
+                    "startOffset": 117754,
                     "endColumn": 115,
-                    "endOffset": 117454
+                    "endOffset": 117865
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9208,11 +9229,11 @@
             },
             {
                 "to": {
-                    "startLine": 1539,
+                    "startLine": 1547,
                     "startColumn": 4,
-                    "startOffset": 117459,
+                    "startOffset": 117870,
                     "endColumn": 85,
-                    "endOffset": 117540
+                    "endOffset": 117951
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9227,12 +9248,12 @@
             },
             {
                 "to": {
-                    "startLine": 1540,
+                    "startLine": 1548,
                     "startColumn": 4,
-                    "startOffset": 117545,
-                    "endLine": 1541,
+                    "startOffset": 117956,
+                    "endLine": 1549,
                     "endColumn": 12,
-                    "endOffset": 117652
+                    "endOffset": 118063
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9248,12 +9269,12 @@
             },
             {
                 "to": {
-                    "startLine": 1542,
+                    "startLine": 1550,
                     "startColumn": 4,
-                    "startOffset": 117657,
-                    "endLine": 1543,
+                    "startOffset": 118068,
+                    "endLine": 1551,
                     "endColumn": 12,
-                    "endOffset": 117776
+                    "endOffset": 118187
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9269,11 +9290,11 @@
             },
             {
                 "to": {
-                    "startLine": 1544,
+                    "startLine": 1552,
                     "startColumn": 4,
-                    "startOffset": 117781,
+                    "startOffset": 118192,
                     "endColumn": 66,
-                    "endOffset": 117843
+                    "endOffset": 118254
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9288,12 +9309,12 @@
             },
             {
                 "to": {
-                    "startLine": 1545,
+                    "startLine": 1553,
                     "startColumn": 4,
-                    "startOffset": 117848,
-                    "endLine": 1546,
+                    "startOffset": 118259,
+                    "endLine": 1554,
                     "endColumn": 12,
-                    "endOffset": 117969
+                    "endOffset": 118380
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9309,11 +9330,11 @@
             },
             {
                 "to": {
-                    "startLine": 1547,
+                    "startLine": 1555,
                     "startColumn": 4,
-                    "startOffset": 117974,
+                    "startOffset": 118385,
                     "endColumn": 67,
-                    "endOffset": 118037
+                    "endOffset": 118448
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9328,12 +9349,12 @@
             },
             {
                 "to": {
-                    "startLine": 1548,
+                    "startLine": 1556,
                     "startColumn": 4,
-                    "startOffset": 118042,
-                    "endLine": 1549,
+                    "startOffset": 118453,
+                    "endLine": 1557,
                     "endColumn": 12,
-                    "endOffset": 118165
+                    "endOffset": 118576
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9349,12 +9370,12 @@
             },
             {
                 "to": {
-                    "startLine": 1550,
+                    "startLine": 1558,
                     "startColumn": 4,
-                    "startOffset": 118170,
-                    "endLine": 1551,
+                    "startOffset": 118581,
+                    "endLine": 1559,
                     "endColumn": 12,
-                    "endOffset": 118309
+                    "endOffset": 118720
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9370,12 +9391,12 @@
             },
             {
                 "to": {
-                    "startLine": 1552,
+                    "startLine": 1560,
                     "startColumn": 4,
-                    "startOffset": 118314,
-                    "endLine": 1553,
+                    "startOffset": 118725,
+                    "endLine": 1561,
                     "endColumn": 12,
-                    "endOffset": 118437
+                    "endOffset": 118848
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9391,11 +9412,11 @@
             },
             {
                 "to": {
-                    "startLine": 1554,
+                    "startLine": 1562,
                     "startColumn": 4,
-                    "startOffset": 118442,
+                    "startOffset": 118853,
                     "endColumn": 68,
-                    "endOffset": 118506
+                    "endOffset": 118917
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9410,11 +9431,11 @@
             },
             {
                 "to": {
-                    "startLine": 1555,
+                    "startLine": 1563,
                     "startColumn": 4,
-                    "startOffset": 118511,
+                    "startOffset": 118922,
                     "endColumn": 94,
-                    "endOffset": 118601
+                    "endOffset": 119012
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9429,11 +9450,11 @@
             },
             {
                 "to": {
-                    "startLine": 1556,
+                    "startLine": 1564,
                     "startColumn": 4,
-                    "startOffset": 118606,
+                    "startOffset": 119017,
                     "endColumn": 114,
-                    "endOffset": 118716
+                    "endOffset": 119127
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9448,11 +9469,11 @@
             },
             {
                 "to": {
-                    "startLine": 1557,
+                    "startLine": 1565,
                     "startColumn": 4,
-                    "startOffset": 118721,
+                    "startOffset": 119132,
                     "endColumn": 112,
-                    "endOffset": 118829
+                    "endOffset": 119240
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9467,11 +9488,11 @@
             },
             {
                 "to": {
-                    "startLine": 1558,
+                    "startLine": 1566,
                     "startColumn": 4,
-                    "startOffset": 118834,
+                    "startOffset": 119245,
                     "endColumn": 98,
-                    "endOffset": 118928
+                    "endOffset": 119339
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9486,11 +9507,11 @@
             },
             {
                 "to": {
-                    "startLine": 1559,
+                    "startLine": 1567,
                     "startColumn": 4,
-                    "startOffset": 118933,
+                    "startOffset": 119344,
                     "endColumn": 108,
-                    "endOffset": 119037
+                    "endOffset": 119448
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9505,11 +9526,11 @@
             },
             {
                 "to": {
-                    "startLine": 1560,
+                    "startLine": 1568,
                     "startColumn": 4,
-                    "startOffset": 119042,
+                    "startOffset": 119453,
                     "endColumn": 110,
-                    "endOffset": 119148
+                    "endOffset": 119559
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9524,11 +9545,11 @@
             },
             {
                 "to": {
-                    "startLine": 1561,
+                    "startLine": 1569,
                     "startColumn": 4,
-                    "startOffset": 119153,
+                    "startOffset": 119564,
                     "endColumn": 110,
-                    "endOffset": 119259
+                    "endOffset": 119670
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9543,11 +9564,11 @@
             },
             {
                 "to": {
-                    "startLine": 1562,
+                    "startLine": 1570,
                     "startColumn": 4,
-                    "startOffset": 119264,
+                    "startOffset": 119675,
                     "endColumn": 100,
-                    "endOffset": 119360
+                    "endOffset": 119771
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9562,11 +9583,11 @@
             },
             {
                 "to": {
-                    "startLine": 1563,
+                    "startLine": 1571,
                     "startColumn": 4,
-                    "startOffset": 119365,
+                    "startOffset": 119776,
                     "endColumn": 104,
-                    "endOffset": 119465
+                    "endOffset": 119876
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9581,12 +9602,12 @@
             },
             {
                 "to": {
-                    "startLine": 1564,
+                    "startLine": 1572,
                     "startColumn": 4,
-                    "startOffset": 119470,
-                    "endLine": 1565,
+                    "startOffset": 119881,
+                    "endLine": 1573,
                     "endColumn": 12,
-                    "endOffset": 119577
+                    "endOffset": 119988
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9602,12 +9623,12 @@
             },
             {
                 "to": {
-                    "startLine": 1566,
+                    "startLine": 1574,
                     "startColumn": 4,
-                    "startOffset": 119582,
-                    "endLine": 1567,
+                    "startOffset": 119993,
+                    "endLine": 1575,
                     "endColumn": 12,
-                    "endOffset": 119707
+                    "endOffset": 120118
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9623,11 +9644,11 @@
             },
             {
                 "to": {
-                    "startLine": 1568,
+                    "startLine": 1576,
                     "startColumn": 4,
-                    "startOffset": 119712,
+                    "startOffset": 120123,
                     "endColumn": 90,
-                    "endOffset": 119798
+                    "endOffset": 120209
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9642,11 +9663,11 @@
             },
             {
                 "to": {
-                    "startLine": 1569,
+                    "startLine": 1577,
                     "startColumn": 4,
-                    "startOffset": 119803,
+                    "startOffset": 120214,
                     "endColumn": 122,
-                    "endOffset": 119921
+                    "endOffset": 120332
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9661,12 +9682,12 @@
             },
             {
                 "to": {
-                    "startLine": 1570,
+                    "startLine": 1578,
                     "startColumn": 4,
-                    "startOffset": 119926,
-                    "endLine": 1571,
+                    "startOffset": 120337,
+                    "endLine": 1579,
                     "endColumn": 12,
-                    "endOffset": 120033
+                    "endOffset": 120444
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9682,11 +9703,11 @@
             },
             {
                 "to": {
-                    "startLine": 1572,
+                    "startLine": 1580,
                     "startColumn": 4,
-                    "startOffset": 120038,
+                    "startOffset": 120449,
                     "endColumn": 85,
-                    "endOffset": 120119
+                    "endOffset": 120530
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9701,11 +9722,11 @@
             },
             {
                 "to": {
-                    "startLine": 1573,
+                    "startLine": 1581,
                     "startColumn": 4,
-                    "startOffset": 120124,
+                    "startOffset": 120535,
                     "endColumn": 103,
-                    "endOffset": 120223
+                    "endOffset": 120634
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9720,12 +9741,12 @@
             },
             {
                 "to": {
-                    "startLine": 1574,
+                    "startLine": 1582,
                     "startColumn": 4,
-                    "startOffset": 120228,
-                    "endLine": 1575,
+                    "startOffset": 120639,
+                    "endLine": 1583,
                     "endColumn": 12,
-                    "endOffset": 120331
+                    "endOffset": 120742
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9741,12 +9762,12 @@
             },
             {
                 "to": {
-                    "startLine": 1576,
+                    "startLine": 1584,
                     "startColumn": 4,
-                    "startOffset": 120336,
-                    "endLine": 1577,
+                    "startOffset": 120747,
+                    "endLine": 1585,
                     "endColumn": 12,
-                    "endOffset": 120431
+                    "endOffset": 120842
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9762,12 +9783,12 @@
             },
             {
                 "to": {
-                    "startLine": 1578,
+                    "startLine": 1586,
                     "startColumn": 4,
-                    "startOffset": 120436,
-                    "endLine": 1579,
+                    "startOffset": 120847,
+                    "endLine": 1587,
                     "endColumn": 12,
-                    "endOffset": 120549
+                    "endOffset": 120960
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9783,12 +9804,12 @@
             },
             {
                 "to": {
-                    "startLine": 1580,
+                    "startLine": 1588,
                     "startColumn": 4,
-                    "startOffset": 120554,
-                    "endLine": 1581,
+                    "startOffset": 120965,
+                    "endLine": 1589,
                     "endColumn": 12,
-                    "endOffset": 120653
+                    "endOffset": 121064
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9804,12 +9825,12 @@
             },
             {
                 "to": {
-                    "startLine": 1582,
+                    "startLine": 1590,
                     "startColumn": 4,
-                    "startOffset": 120658,
-                    "endLine": 1583,
+                    "startOffset": 121069,
+                    "endLine": 1591,
                     "endColumn": 12,
-                    "endOffset": 120757
+                    "endOffset": 121168
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9825,12 +9846,12 @@
             },
             {
                 "to": {
-                    "startLine": 1584,
+                    "startLine": 1592,
                     "startColumn": 4,
-                    "startOffset": 120762,
-                    "endLine": 1585,
+                    "startOffset": 121173,
+                    "endLine": 1593,
                     "endColumn": 12,
-                    "endOffset": 120883
+                    "endOffset": 121294
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9846,11 +9867,11 @@
             },
             {
                 "to": {
-                    "startLine": 1586,
+                    "startLine": 1594,
                     "startColumn": 4,
-                    "startOffset": 120888,
+                    "startOffset": 121299,
                     "endColumn": 87,
-                    "endOffset": 120971
+                    "endOffset": 121382
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9865,11 +9886,11 @@
             },
             {
                 "to": {
-                    "startLine": 1587,
+                    "startLine": 1595,
                     "startColumn": 4,
-                    "startOffset": 120976,
+                    "startOffset": 121387,
                     "endColumn": 89,
-                    "endOffset": 121061
+                    "endOffset": 121472
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9884,11 +9905,11 @@
             },
             {
                 "to": {
-                    "startLine": 1588,
+                    "startLine": 1596,
                     "startColumn": 4,
-                    "startOffset": 121066,
+                    "startOffset": 121477,
                     "endColumn": 109,
-                    "endOffset": 121171
+                    "endOffset": 121582
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9903,11 +9924,11 @@
             },
             {
                 "to": {
-                    "startLine": 1589,
+                    "startLine": 1597,
                     "startColumn": 4,
-                    "startOffset": 121176,
+                    "startOffset": 121587,
                     "endColumn": 83,
-                    "endOffset": 121255
+                    "endOffset": 121666
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9922,11 +9943,11 @@
             },
             {
                 "to": {
-                    "startLine": 1590,
+                    "startLine": 1598,
                     "startColumn": 4,
-                    "startOffset": 121260,
+                    "startOffset": 121671,
                     "endColumn": 53,
-                    "endOffset": 121309
+                    "endOffset": 121720
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9941,11 +9962,11 @@
             },
             {
                 "to": {
-                    "startLine": 1591,
+                    "startLine": 1599,
                     "startColumn": 4,
-                    "startOffset": 121314,
+                    "startOffset": 121725,
                     "endColumn": 63,
-                    "endOffset": 121373
+                    "endOffset": 121784
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9960,11 +9981,11 @@
             },
             {
                 "to": {
-                    "startLine": 1592,
+                    "startLine": 1600,
                     "startColumn": 4,
-                    "startOffset": 121378,
+                    "startOffset": 121789,
                     "endColumn": 105,
-                    "endOffset": 121479
+                    "endOffset": 121890
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9979,11 +10000,11 @@
             },
             {
                 "to": {
-                    "startLine": 1593,
+                    "startLine": 1601,
                     "startColumn": 4,
-                    "startOffset": 121484,
+                    "startOffset": 121895,
                     "endColumn": 109,
-                    "endOffset": 121589
+                    "endOffset": 122000
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9998,11 +10019,11 @@
             },
             {
                 "to": {
-                    "startLine": 1594,
+                    "startLine": 1602,
                     "startColumn": 4,
-                    "startOffset": 121594,
+                    "startOffset": 122005,
                     "endColumn": 83,
-                    "endOffset": 121673
+                    "endOffset": 122084
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -10017,11 +10038,11 @@
             },
             {
                 "to": {
-                    "startLine": 1595,
+                    "startLine": 1603,
                     "startColumn": 4,
-                    "startOffset": 121678,
+                    "startOffset": 122089,
                     "endColumn": 119,
-                    "endOffset": 121793
+                    "endOffset": 122204
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -10036,12 +10057,12 @@
             },
             {
                 "to": {
-                    "startLine": 1596,
+                    "startLine": 1604,
                     "startColumn": 4,
-                    "startOffset": 121798,
-                    "endLine": 1605,
+                    "startOffset": 122209,
+                    "endLine": 1613,
                     "endColumn": 10,
-                    "endOffset": 122234
+                    "endOffset": 122645
                 },
                 "from": {
                     "file": "/Users/SangJun/Documents/Programming/appdev/HTN/HTN_JASD_Service/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/values/values.xml",
