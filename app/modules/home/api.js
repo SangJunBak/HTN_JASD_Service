@@ -76,14 +76,15 @@ export function setProfilePicture(picture, callback){
     var user = auth.currentUser
 
     if (!user){
-        callback("Cannot set user description: not logged in!")
+        callback("Cannot set user profile photo: not logged in!")
     }
 
+    // 1 - Upload picture to cloud storage
     var filePath = user.uid + '/' + picture.name;
     return storage.ref(filePath).put(picture).then(function(fileSnapshot) {
-        // 3 - Generate a public URL for the picture.
+        // 2 - Generate a public URL for the picture.
         return fileSnapshot.ref.getDownloadURL().then((url) => {
-        // 4 - Update user profile with url
+        // 3 - Update user profile with url
             var updates = {};
             updates['/users/' + user.uid + '/profilepicture'] = url;
         

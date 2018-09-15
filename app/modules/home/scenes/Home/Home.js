@@ -9,6 +9,9 @@ import * as api from '../../api';
 import styles from "./styles"
 
 import { actions as auth, theme } from "../../../auth/index"
+
+import ImagePicker from 'react-native-image-picker';
+
 const { signOut } = auth;
 
 const { color } = theme;
@@ -48,11 +51,16 @@ class Home extends React.Component {
     testFunction(){
         // if(this.state.description){
             // console.warn(description)
-            api.setUserDescription("wasdsadsa", (error) => {
-                if (error){
-                    console.warn(error)
+            ImagePicker.showImagePicker((response) => {
+                if (!response.didCancel){
+                    //TODO: 
                 }
             });
+            // api.setUserDescription("wasdsadsa", (error) => {
+            //     if (error){
+            //         console.warn(error)
+            //     }
+            // });
         // }
 
     }
