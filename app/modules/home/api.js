@@ -1,5 +1,5 @@
 
-import { auth, database, provider } from "../../config/firebase";
+import { auth, database, provider, storage } from "../../config/firebase";
 
 //Register the user using email and password
 export function register(data, callback) {
@@ -41,6 +41,58 @@ export function getUser(user, callback) {
         })
         .catch(error => callback(false, null, error));
 }
+
+//Get the other users from database
+export function getOtherUsers(callback) {
+    //TODO: Exclude self
+    database.ref('users').once('value')
+        .then(function(snapshot) {
+            // snapshot.forEach(function(childSnapshot) {
+            //     var childKey = childSnapshot.key;
+            //     var childData = childSnapshot.val();
+
+            //     console.warn(childData.username + ", " + childData.uid);
+                
+            // });
+
+            callback(true, snapshot, null);
+        })
+        .catch(error => callback(false, null, error));
+}
+
+export function setUserDescription(description, callback){
+    var user = auth.currentUser
+
+    if (!user){
+        callback("Cannot set user description: not logged in!")
+    }
+    var updates = {};
+    updates['/users/' + user.uid + '/description'] = description;
+
+    database.ref().update(updates, callback);
+}
+
+export function setProfilePicture(picture, callback){
+    var user = auth.currentUser
+
+    if (!user){
+        callback("Cannot set user profile photo: not logged in!")
+    }
+
+    // 1 - Upload picture to cloud storage
+    var filePath = user.uid + '/' + picture.name;
+    return storage.ref(filePath).put(picture).then(function(fileSnapshot) {
+        // 2 - Generate a public URL for the picture.
+        return fileSnapshot.ref.getDownloadURL().then((url) => {
+        // 3 - Update user profile with url
+            var updates = {};
+            updates['/users/' + user.uid + '/profilepicture'] = url;
+        
+            database.ref().update(updates, callback);
+        });
+    });
+}
+
 
 //Send Password Reset Email
 export function resetPassword(data, callback) {
