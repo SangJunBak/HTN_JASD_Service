@@ -1,9 +1,10 @@
 import React from 'react';
-var { View, StyleSheet, Alert } = require('react-native');
+var { View, StyleSheet, Alert, TextInput } = require('react-native');
 
 import {Button} from 'react-native-elements'
 import {Actions} from 'react-native-router-flux';
 import {connect} from 'react-redux';
+import * as api from '../../api';
 
 import styles from "./styles"
 
@@ -13,11 +14,23 @@ const { signOut } = auth;
 const { color } = theme;
 
 class Home extends React.Component {
-    constructor(){
-        super();
-        this.state = { }
+    constructor(props){
+        super(props);
+
+        this.state = {
+            description: "",
+
+        }
         
         this.onSignOut = this.onSignOut.bind(this);
+    }
+
+    componentDidMount(){
+
+        api.getOtherUsers((success, data, error) => {
+
+        });
+
     }
 
     onSignOut() {
@@ -32,6 +45,18 @@ class Home extends React.Component {
         Alert.alert('Oops!', error.message);
     }
 
+    testFunction(){
+        // if(this.state.description){
+            // console.warn(description)
+            api.setUserDescription("wasdsadsa", (error) => {
+                if (error){
+                    console.warn(error)
+                }
+            });
+        // }
+
+    }
+
     render() {
         return (
             <View style={styles.container}>
@@ -43,6 +68,18 @@ class Home extends React.Component {
                     buttonStyle={[styles.button]}
                     textStyle={styles.buttonText}
                     onPress={this.onSignOut}/>
+
+
+                    <TextInput name ="description" value={this.state.description} onChangeText = {(text) => this.setState({description : text})}/>
+                    
+                    <Button
+                    raised
+                    borderRadius={4}
+                    title={'Test function'}
+                    containerViewStyle={[styles.containerView]}
+                    buttonStyle={[styles.button]}
+                    textStyle={styles.buttonText}
+                    onPress={this.testFunction}/>
             </View>
         );
     }
