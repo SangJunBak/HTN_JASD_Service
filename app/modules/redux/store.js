@@ -5,4 +5,4 @@ import reducers from './rootReducer'; //Import the root reducer
 
 const enhancer = compose(applyMiddleware(thunk));
 
-// export default createStore(reducers, enhancer);
+export default createStore(reducers, enhancer);
