@@ -36,6 +36,11 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Android and IOS
+android/
+ios/
+.expo/
+
 # TypeScript v1 declaration files
 typings/
 
