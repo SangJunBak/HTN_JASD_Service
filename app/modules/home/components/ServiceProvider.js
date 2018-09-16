@@ -19,7 +19,7 @@ class ServiceProvider extends PureComponent {
         return (
             <Card
                 class="serviceProvider"
-                title={this.props.name}
+                title={this.props.userData.username}
                 titleStyle={{textAlign:"left"}}
             >
                 <Image
@@ -27,7 +27,7 @@ class ServiceProvider extends PureComponent {
                             width: 80,
                             height: 80
                     }}
-                    source={{uri: "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg"}}/>
+                    source={{uri: `${this.props.userData.profilepic}` }}/>
             </Card>
         );
     }

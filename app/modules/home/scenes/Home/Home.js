@@ -23,18 +23,30 @@ class Home extends React.Component {
 
         this.state = {
             description: "",
-
+            users: {}
         }
         
         this.onSignOut = this.onSignOut.bind(this);
 
         this.testFunction=this.testFunction.bind(this);
+
+        this.componentDidMount=this.componentDidMount.bind(this);
     }
 
     componentDidMount(){
 
         api.getAllUsers((success, data, error) => {
-            
+            if (success){
+                // data.forEach(function(childSnapshot) {
+                //     var user = childSnapshot.val();
+                //     if (user.uid ==)
+                //     console.warn(childData.username + ", " + childData.uid);
+                
+                // });
+                users = data
+            }else{
+               console.warn(error) 
+            }
         });
 
     }
@@ -67,7 +79,9 @@ class Home extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <UserFeed/>
+                <UserFeed
+                    userData = {this.state.users}
+                />
                 <Button
                     raised
                     borderRadius={4}

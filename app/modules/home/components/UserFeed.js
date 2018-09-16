@@ -31,8 +31,8 @@ class UserFeed extends PureComponent {
     render() {
         return (
             <FlatList
-                data={this.state.list}
-                renderItem={({item}) => <ServiceProvider name={item.name}/>}
+                data={this.props.userData}
+                renderItem={({userData}) => <ServiceProvider userData = {userData}/>}
             />
         );
     }
