@@ -12,6 +12,7 @@ import styles from "./styles"
 import { actions as auth, theme } from "../../../auth/index"
 
 
+
 const { signOut } = auth;
 
 const { color } = theme;
@@ -33,7 +34,7 @@ class Home extends React.Component {
     componentDidMount(){
 
         api.getAllUsers((success, data, error) => {
-
+            
         });
 
     }
@@ -66,6 +67,7 @@ class Home extends React.Component {
     render() {
         return (
             <View style={styles.container}>
+                <UserFeed/>
                 <Button
                     raised
                     borderRadius={4}
@@ -74,7 +76,6 @@ class Home extends React.Component {
                     textStyle={styles.buttonText}
                     onPress={this.onSignOut}
                 />
-                <UserFeed/>
             </View>
         );
     }

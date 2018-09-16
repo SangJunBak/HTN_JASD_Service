@@ -61,7 +61,7 @@ export default class extends React.Component {
                                navigationBarStyle={{backgroundColor: "red"}}
 
                                component={Home}
-                               title=""
+                               title="Home"
                                initial={true}
                                type={ActionConst.REPLACE}/>
                     </Stack>
