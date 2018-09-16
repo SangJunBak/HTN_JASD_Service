@@ -59,9 +59,8 @@ export function getUser(userID, callback) {
         .catch(error => callback(false, null, error));
 }
 
-//Get the other users from database
-export function getOtherUsers(callback) {
-    //TODO: Exclude self
+//Gets all users from database. Make sure to exclude self
+export function getAllUsers(callback) {
     database.ref('users').once('value')
         .then(function(snapshot) {
             // snapshot.forEach(function(childSnapshot) {

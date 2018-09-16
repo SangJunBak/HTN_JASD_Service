@@ -32,7 +32,7 @@ class Home extends React.Component {
 
     componentDidMount(){
 
-        api.getOtherUsers((success, data, error) => {
+        api.getAllUsers((success, data, error) => {
 
         });
 
