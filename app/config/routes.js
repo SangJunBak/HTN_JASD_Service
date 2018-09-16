@@ -58,10 +58,10 @@ export default class extends React.Component {
 
                     <Stack key="Main" initial={this.state.isLoggedIn}>
                         <Scene key="Home"
-                               navigationBarStyle={{backgroundColor: "red"}}
+                               navigationBarStyle={{backgroundColor: "#53B1DC"}}
 
                                component={Home}
-                               title=""
+                               title="OpenUp"
                                initial={true}
                                type={ActionConst.REPLACE}/>
                     </Stack>
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     },
 
     button : {
-        backgroundColor:"red",
+        backgroundColor:"#53B1DC",
         marginRight: "10px"
     },
 

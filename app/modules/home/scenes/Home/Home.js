@@ -12,6 +12,7 @@ import styles from "./styles"
 import { actions as auth, theme } from "../../../auth/index"
 
 
+
 const { signOut } = auth;
 
 const { color } = theme;
@@ -22,18 +23,31 @@ class Home extends React.Component {
 
         this.state = {
             description: "",
-
+            users: {}
         }
         
         this.onSignOut = this.onSignOut.bind(this);
 
         this.testFunction=this.testFunction.bind(this);
+
+        this.componentDidMount=this.componentDidMount.bind(this);
     }
 
     componentDidMount(){
 
-        api.getOtherUsers((success, data, error) => {
+        api.getAllUsers((success, data, error) => {
+            if (success){
+                let tempUsers = [];
+                data.forEach(function(childSnapshot) {
+                    tempUsers.push(childSnapshot.val());
+                    // if (user.uid == "")
+                    // console.warn(childData.username + ", " + childData.uid);
+                });
 
+                this.setState({users: tempUsers})
+            }else{
+               console.warn(error) 
+            }
         });
 
     }
@@ -66,6 +80,13 @@ class Home extends React.Component {
     render() {
         return (
             <View style={styles.container}>
+<<<<<<< HEAD
+                <UserFeed/>
+=======
+                <UserFeed
+                    userData = {this.state.users}
+                />
+>>>>>>> feature/comments
                 <Button
                     raised
                     borderRadius={4}
@@ -74,7 +95,6 @@ class Home extends React.Component {
                     textStyle={styles.buttonText}
                     onPress={this.onSignOut}
                 />
-                <UserFeed/>
             </View>
         );
     }

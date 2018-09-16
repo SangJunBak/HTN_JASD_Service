@@ -59,9 +59,8 @@ export function getUser(userID, callback) {
         .catch(error => callback(false, null, error));
 }
 
-//Get the other users from database
-export function getOtherUsers(callback) {
-    //TODO: Exclude self
+//Gets all users from database. Make sure to exclude self
+export function getAllUsers(callback) {
     database.ref('users').once('value')
         .then(function(snapshot) {
             // snapshot.forEach(function(childSnapshot) {
@@ -96,13 +95,25 @@ export function commentOnUser(comment, targetUID, callback){
         callback("Cannot comment: not logged in!")
     }
 
-    //Inefficient but w/e
     database.ref('/users/' + targetUID + '/comments/').push({
         text: comment,
         author: thisUser.uid
     }).then(callback(false));
 }
 
+export function rateUser(rating, targetUID, callback){
+    var thisUser = auth.currentUser
+
+    if (!thisUser){
+        callback("Cannot rate: not logged in!")
+    }
+
+    //Inefficient but w/e
+    database.ref('/users/' + targetUID + '/ratings/').push({
+        rating: rating,
+        user: thisUser.uid
+    }).then(callback(false));
+}
 
 //Send Password Reset Email
 export function resetPassword(data, callback) {
