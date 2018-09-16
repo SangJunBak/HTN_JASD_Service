@@ -37,13 +37,14 @@ class Home extends React.Component {
 
         api.getAllUsers((success, data, error) => {
             if (success){
-                // data.forEach(function(childSnapshot) {
-                //     var user = childSnapshot.val();
-                //     if (user.uid ==)
-                //     console.warn(childData.username + ", " + childData.uid);
-                
-                // });
-                users = data
+                let tempUsers = [];
+                data.forEach(function(childSnapshot) {
+                    tempUsers.push(childSnapshot.val());
+                    // if (user.uid == "")
+                    // console.warn(childData.username + ", " + childData.uid);
+                });
+
+                this.setState({users: tempUsers})
             }else{
                console.warn(error) 
             }

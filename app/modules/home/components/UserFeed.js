@@ -6,7 +6,6 @@ import {
     View,
     FlatList
 } from 'react-native';
-import PropTypes from 'prop-types';
 
 import ServiceProvider from './ServiceProvider';
 
@@ -14,25 +13,13 @@ class UserFeed extends PureComponent {
 
     constructor(props){
         super(props);
-        this.state={
-            list: []
-        };
-
-    }
-
-    componentDidMount(){
-        let set1 = [];
-        for(let i = 0; i< 200; i++){
-            set1.push({name: `Person${i}`, key:'item'+i});
-        }
-        this.setState({list:set1});
     }
 
     render() {
         return (
             <FlatList
                 data={this.props.userData}
-                renderItem={({userData}) => <ServiceProvider userData = {userData}/>}
+                renderItem={(user) => <ServiceProvider userData = {user.item}/>}
             />
         );
     }
@@ -40,6 +27,5 @@ class UserFeed extends PureComponent {
 
 }
 
-UserFeed.propTypes = {};
 
 export default UserFeed;
