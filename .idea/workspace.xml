@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fecef7c4-59bb-41af-8f70-c31fcb758a8e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/auth/scenes/Welcome/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/auth/scenes/Welcome/Welcome.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/modules/home/scenes/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/home/scenes/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/home/scenes/Home/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/home/scenes/Home/styles.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/app/modules/auth/components/Splash/styles.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-616">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -88,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/app/modules/home/components/ServiceProvider.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -108,8 +100,8 @@
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/modules/home/scenes/Home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+            <state relative-caret-position="471">
+              <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
               <folding>
                 <element signature="e#98#142#0" expanded="true" />
               </folding>
@@ -305,12 +297,12 @@
       <updated>1537000683882</updated>
       <workItem from="1537000685583" duration="2323000" />
       <workItem from="1537006652723" duration="5001000" />
-      <workItem from="1537023969413" duration="19557000" />
+      <workItem from="1537023969413" duration="20404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26881000" />
+    <option name="totallyTimeSpent" value="27728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -625,7 +617,7 @@
     <entry file="file://$PROJECT_DIR$/app/modules/auth/components/Splash/styles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-616">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
@@ -679,7 +671,7 @@
     <entry file="file://$PROJECT_DIR$/app/modules/home/components/ServiceProvider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -724,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/modules/home/scenes/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+        <state relative-caret-position="471">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
           <folding>
             <element signature="e#98#142#0" expanded="true" />
           </folding>
