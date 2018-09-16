@@ -51,9 +51,14 @@ class Home extends React.Component {
     testFunction(){
         // if(this.state.description){
             // console.warn(description)
-            ImagePicker.showImagePicker((response) => {
-                if (!response.didCancel){
-                    //TODO: 
+            ImagePicker.showImagePicker({
+                title: 'Select Avatar'}, (response) => {
+                if (!response.didCancel && !response.error){
+                    api.setProfilePicture(response.uri).then(function(url){
+                        //console.warn(url)
+                    }, function(error){
+                        console.warn(error)
+                    })
                 }
             });
             // api.setUserDescription("wasdsadsa", (error) => {
