@@ -22,12 +22,12 @@ export function createUser (user, callback) {
 export function login(data, callback) {
     const { email, password } = data;
     auth.signInWithEmailAndPassword(email, password)
-        .then((resp) => getUser(resp.user, callback))
+        .then((resp) => updateCurrentUser(resp.user, callback))
         .catch((error) => callback(false, null, error));
 }
 
 //Get the user object from the realtime database
-export function getUser(user, callback) {
+export function updateCurrentUser(user, callback) {
     database.ref('users').child(user.uid).once('value')
         .then(function(snapshot) {
 
@@ -42,9 +42,25 @@ export function getUser(user, callback) {
         .catch(error => callback(false, null, error));
 }
 
-//Get the other users from database
-export function getOtherUsers(callback) {
-    //TODO: Exclude self
+//Get a user object
+export function getUser(userID, callback) {
+    database.ref('/users/' + userID).once('value')
+        .then(function(snapshot) {
+
+            const exists = (snapshot.val() !== null);
+
+            var user = null
+            //if the user exist in the DB, replace the user variable with the returned snapshot
+            if (exists) user = snapshot.val();
+
+            const data = { exists, user }
+            callback(true, data, null);
+        })
+        .catch(error => callback(false, null, error));
+}
+
+//Gets all users from database. Make sure to exclude self
+export function getAllUsers(callback) {
     database.ref('users').once('value')
         .then(function(snapshot) {
             // snapshot.forEach(function(childSnapshot) {
@@ -72,27 +88,32 @@ export function setUserDescription(description, callback){
     database.ref().update(updates, callback);
 }
 
-export function setProfilePicture(picture, callback){
-    var user = auth.currentUser
+export function commentOnUser(comment, targetUID, callback){
+    var thisUser = auth.currentUser
 
-    if (!user){
-        callback("Cannot set user profile photo: not logged in!")
+    if (!thisUser){
+        callback("Cannot comment: not logged in!")
     }
 
-    // 1 - Upload picture to cloud storage
-    var filePath = user.uid + '/' + picture.name;
-    return storage.ref(filePath).put(picture).then(function(fileSnapshot) {
-        // 2 - Generate a public URL for the picture.
-        return fileSnapshot.ref.getDownloadURL().then((url) => {
-        // 3 - Update user profile with url
-            var updates = {};
-            updates['/users/' + user.uid + '/profilepicture'] = url;
-        
-            database.ref().update(updates, callback);
-        });
-    });
+    database.ref('/users/' + targetUID + '/comments/').push({
+        text: comment,
+        author: thisUser.uid
+    }).then(callback(false));
 }
 
+export function rateUser(rating, targetUID, callback){
+    var thisUser = auth.currentUser
+
+    if (!thisUser){
+        callback("Cannot rate: not logged in!")
+    }
+
+    //Inefficient but w/e
+    database.ref('/users/' + targetUID + '/ratings/').push({
+        rating: rating,
+        user: thisUser.uid
+    }).then(callback(false));
+}
 
 //Send Password Reset Email
 export function resetPassword(data, callback) {
@@ -117,6 +138,6 @@ export function signOut (callback) {
 export function signInWithFacebook (fbToken, callback) {
     const credential = provider.credential(fbToken);
     auth.signInWithCredential(credential)
-        .then((user) => getUser(user, callback))
+        .then((user) => updateCurrentUser(user, callback))
         .catch((error) => callback(false, null, error));
 }

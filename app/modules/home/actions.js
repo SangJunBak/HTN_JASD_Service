@@ -92,3 +92,28 @@ export function signInWithFacebook(facebookToken, successCB, errorCB) {
         });
     };
 }
+
+export function loadUsers(successCB, errorCB) {
+    return (dispatch) => {
+        api.getAllUsers(function (success, data, error) {
+            if (success) {
+                dispatch({type: t.LOAD_USERS, data:data});
+                successCB(data);
+            }else if (error) errorCB(error)
+        });
+    };
+}
+
+export function focusUser(user, successCB) {
+    return (dispatch) => {
+        dispatch({type: t.FOCUS_USER, data:user});
+        successCB(data);
+    };
+}
+
+export function unfocusUser(successCB) {
+    return (dispatch) => {
+        dispatch({type: t.UNFOCUS_USER});
+        successCB();
+    };
+}

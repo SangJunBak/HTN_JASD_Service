@@ -12,6 +12,7 @@ import styles from "./styles"
 import { actions as auth, theme } from "../../../auth/index"
 
 
+
 const { signOut } = auth;
 
 const { color } = theme;
@@ -22,16 +23,31 @@ class Home extends React.Component {
 
         this.state = {
             description: "",
-
+            users: {}
         }
         
         this.onSignOut = this.onSignOut.bind(this);
+
+        this.testFunction=this.testFunction.bind(this);
+
+        this.componentDidMount=this.componentDidMount.bind(this);
     }
 
     componentDidMount(){
 
-        api.getOtherUsers((success, data, error) => {
+        api.getAllUsers((success, data, error) => {
+            if (success){
+                let tempUsers = [];
+                data.forEach(function(childSnapshot) {
+                    tempUsers.push(childSnapshot.val());
+                    // if (user.uid == "")
+                    // console.warn(childData.username + ", " + childData.uid);
+                });
 
+                this.setState({users: tempUsers})
+            }else{
+               console.warn(error) 
+            }
         });
 
     }
@@ -49,26 +65,28 @@ class Home extends React.Component {
     }
 
     testFunction(){
-        // if(this.state.description){
-            // console.warn(description)
-            // ImagePicker.showImagePicker((response) => {
-            //     if (!response.didCancel){
-            //         //TODO:
-            //     }
-            // });
-            // api.setUserDescription("wasdsadsa", (error) => {
-            //     if (error){
-            //         console.warn(error)
-            //     }
-            // });
-        // }
+        if(this.state.description){
+            api.commentOnUser(this.state.description, 'iynB23AhNQVKDjkTekIvtY7hCIv2', (error) => {
+                if (error){
+                    console.warn(error)
+                }else{
+                    console.warn("success")
+                }
+            });
+        }
 
     }
 
     render() {
         return (
             <View style={styles.container}>
+<<<<<<< HEAD
                 <UserFeed/>
+=======
+                <UserFeed
+                    userData = {this.state.users}
+                />
+>>>>>>> feature/comments
                 <Button
                     raised
                     borderRadius={4}
