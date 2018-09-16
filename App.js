@@ -9,6 +9,8 @@ import store from './app/modules/redux/store';
 //     return fonts.map(font => Font.loadAsync(font));
 // }
 
+console.disableYellowBox= true;
+
 export default class App extends Component {
     constructor() {
         super();

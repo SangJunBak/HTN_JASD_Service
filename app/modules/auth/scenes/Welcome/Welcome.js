@@ -21,7 +21,7 @@ class Welcome extends React.Component {
             <View style={styles.container}>
                 <View style={styles.topContainer}>
                     <Image style={styles.image} source={{uri: ""}}/>
-                    <Text style={styles.title}>Quotes</Text>
+                    <Text style={styles.title}>OpenUp</Text>
                 </View>
 
                 <View style={styles.bottomContainer}>
