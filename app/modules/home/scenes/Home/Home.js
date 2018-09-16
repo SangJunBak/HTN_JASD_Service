@@ -26,6 +26,8 @@ class Home extends React.Component {
         }
         
         this.onSignOut = this.onSignOut.bind(this);
+
+        this.testFunction=this.testFunction.bind(this);
     }
 
     componentDidMount(){
@@ -49,19 +51,15 @@ class Home extends React.Component {
     }
 
     testFunction(){
-        // if(this.state.description){
-            // console.warn(description)
-            ImagePicker.showImagePicker((response) => {
-                if (!response.didCancel){
-                    //TODO: 
+        if(this.state.description){
+            api.commentOnUser(this.state.description, 'iynB23AhNQVKDjkTekIvtY7hCIv2', (error) => {
+                if (error){
+                    console.warn(error)
+                }else{
+                    console.warn("success")
                 }
             });
-            // api.setUserDescription("wasdsadsa", (error) => {
-            //     if (error){
-            //         console.warn(error)
-            //     }
-            // });
-        // }
+        }
 
     }
 
