@@ -1,4 +1,6 @@
 import React from 'react';
+import {Button, StyleSheet} from 'react-native';
+import { padding, fontSize, fontFamily, windowWidth, normalize } from "../modules/styles/Theme"
 import { Scene, Router, ActionConst, Stack, Modal, Tabs } from 'react-native-router-flux';
 
 //Splash Component
@@ -17,6 +19,7 @@ import store from '../modules/redux/store'
 import { checkLoginStatus } from "../modules/auth/actions";
 
 import { color, navTitleStyle } from "../modules/styles/Theme";
+import {theme} from "../modules/home";
 
 export default class extends React.Component {
     constructor() {
@@ -54,10 +57,46 @@ export default class extends React.Component {
                     </Stack>
 
                     <Stack key="Main" initial={this.state.isLoggedIn}>
-                        <Scene key="Home" component={Home} title="Home" initial={true} type={ActionConst.REPLACE}/>
+                        <Scene key="Home"
+                               navigationBarStyle={{backgroundColor: "red"}}
+
+                               component={Home}
+                               title=""
+                               initial={true}
+                               type={ActionConst.REPLACE}/>
                     </Stack>
                 </Scene>
             </Router>
         )
     }
 }
+
+const styles = StyleSheet.create({
+    container:{
+        flex: 1
+    },
+
+    bottomContainer:{
+        backgroundColor:"white",
+        paddingVertical: padding * 3,
+        shadowColor: "#000000",
+        shadowOpacity: 0.8,
+        shadowRadius: 2,
+        shadowOffset: {
+            height: 1,
+            width: 0
+        }
+    },
+
+    button : {
+        backgroundColor:"red",
+        marginRight: "10px"
+    },
+
+    buttonContainer:{
+        justifyContent:"center",
+        alignItems:"center"
+    }
+
+
+});

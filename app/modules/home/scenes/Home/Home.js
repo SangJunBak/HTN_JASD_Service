@@ -5,12 +5,12 @@ import {Button} from 'react-native-elements'
 import {Actions} from 'react-native-router-flux';
 import {connect} from 'react-redux';
 import * as api from '../../api';
+import UserFeed from '../../components/UserFeed';
 
 import styles from "./styles"
 
 import { actions as auth, theme } from "../../../auth/index"
 
-import ImagePicker from 'react-native-image-picker';
 
 const { signOut } = auth;
 
@@ -71,21 +71,10 @@ class Home extends React.Component {
                     borderRadius={4}
                     title={'LOG OUT'}
                     containerViewStyle={[styles.containerView]}
-                    buttonStyle={[styles.button]}
                     textStyle={styles.buttonText}
-                    onPress={this.onSignOut}/>
-
-
-                    <TextInput name ="description" value={this.state.description} onChangeText = {(text) => this.setState({description : text})}/>
-                    
-                    <Button
-                    raised
-                    borderRadius={4}
-                    title={'Test function'}
-                    containerViewStyle={[styles.containerView]}
-                    buttonStyle={[styles.button]}
-                    textStyle={styles.buttonText}
-                    onPress={this.testFunction}/>
+                    onPress={this.onSignOut}
+                />
+                <UserFeed/>
             </View>
         );
     }
