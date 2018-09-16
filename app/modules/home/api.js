@@ -95,13 +95,25 @@ export function commentOnUser(comment, targetUID, callback){
         callback("Cannot comment: not logged in!")
     }
 
-    //Inefficient but w/e
     database.ref('/users/' + targetUID + '/comments/').push({
         text: comment,
         author: thisUser.uid
     }).then(callback(false));
 }
 
+export function rateUser(rating, targetUID, callback){
+    var thisUser = auth.currentUser
+
+    if (!thisUser){
+        callback("Cannot rate: not logged in!")
+    }
+
+    //Inefficient but w/e
+    database.ref('/users/' + targetUID + '/ratings/').push({
+        rating: rating,
+        user: thisUser.uid
+    }).then(callback(false));
+}
 
 //Send Password Reset Email
 export function resetPassword(data, callback) {
